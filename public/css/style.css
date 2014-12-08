@@ -1,39 +1,34 @@
-
-box_A {
-
-background: linear-gradient(to right, #1e5799 0%,blue 0%, red 100%);
-display: none;
-
-}
-
-
-table {
-    /*background-image: radial-gradient(farthest-corner at 600px 45px , #FF0000 0%, #0000FF 100%);*/
-
-
-
-}
-    /*background-image: none;*/
-    /*give each td a id*/
-    /*$('#name').position()*/
-    /*computerNumber - 45, 46, 55, 56*/
-    /*top-left = 45px by 45px computerNumber = 1/*
-    /*top-right = 600 by 45  computerNumber = 10
-    /*bottom-right = 600px, 600px computerNumber = 100*/
-    /*bottom-left = 45px, 600px computerNumber = 91*/
-
 body {
-    width: 1280px;
-    height: 750px;
-	background-color: #FFF7BC;
-	background: url('../images/stardust.png') repeat;
+    /*width: 1280px;*/
+    width: 100%;
+    /* height: 750px;*/
+    height: 120%;
+    background-color: #FFF7BC;
+    background: url('../images/stardust.png') repeat;
     color: white;
     font-family: 'Abel', sans-serif;
 }
 
+box_A {
+    background: linear-gradient(to right, #1e5799 0%,blue 0%, red 100%);
+    display: none;
+}
+
 .container {
-    top: 50%;
-    left: 50%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+    float: left;
+    border: 10px solid white;
+}
+
+#table {
+    box-sizing: border-box;
+    /*border: 1px dashed red;*/
+    margin-top: 2.5em;
 }
 
 .button {
@@ -71,14 +66,6 @@ aside p {
 hr {
     margin-top: 25px;
     border: 3px solid;
-}
-
-table {
-	margin: 0 auto;
-    float: left;
- /*   margin-top: 25px;
-    margin-left: 225px;*/
-    border: 10px solid white;
 }
 
 td {
